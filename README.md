@@ -14,18 +14,13 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 
 ![image](https://user-images.githubusercontent.com/103921593/203238265-176740b0-eae2-4772-90be-5449869ac9b0.png)
 
-
-
-
 ## Experiment:
+![exp5 1](https://github.com/nithin-popuri7/Muttiple-capacity-with-infinite-capacity/assets/94154780/1d35f4d1-3104-44f4-8c5c-269d611eaee2)
 
-![image](https://github.com/user-attachments/assets/6d8b24d0-4a04-4de3-9f61-e026f638f5d2)
+![exp5 2](https://github.com/nithin-popuri7/Muttiple-capacity-with-infinite-capacity/assets/94154780/13d30585-0c48-4b29-be60-57aa39e77fbf)
 
-![image](https://github.com/user-attachments/assets/4fc2f9f0-32e6-447c-8eec-f1b41e7b37c1)
-
-
-## Program
-```
+## Program:
+```python
 import math
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -57,11 +52,10 @@ if (rho<1):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("--------------------------------------------------------------")
-
 ```
 
 ## Output :
-![image](https://github.com/user-attachments/assets/0863f7fa-f8bc-4222-bf6f-4beb1be2425c)
+![exp5](https://github.com/nithin-popuri7/Muttiple-capacity-with-infinite-capacity/assets/94154780/d961ec39-3eb9-44d5-875b-375f5694d5df)
 
-## Result : 
-
+## Result :
+Thus the average number of materials in the system and conveyor, waiting time of each material in the system and conveyor is found successfully.
